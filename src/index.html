@@ -8,9 +8,87 @@
 </head>
 
 <body>
-  <!-- Content starts here -->
-  <p>Testing: 1, 2, 3, 4</p>
+  <div class="container">
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+      <a class="navbar-brand" href="index.html">Pirate Cove</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="article.html">Article</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="photos.html">Photos</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown toggle" href="#" role ="button" data-bs-toggle="dropdown" aria-expanded="false">
+            </a>
+            <ul class ="dropdown-menu">
+                <li><a class="dropdown-item" href="index.html">Home</a></li>
+                <li><a class="dropdown-item" href="article.html">Article</a></li>
+                <li><a class="dropdown-item" href="photos.html">Photos</a></li>
+            </ul>
+          </li>
+        </ul>
+      </div>
+  </div>
+  </nav>
 
+  <div class="container md-4">
+    <header class="jumbotron p-5 text-center" style="min-height: 300px;">
+      <h1 class="display-4">SHIP'S LOG</h1>
+        <p class="lead">A diary by Cpt. Celestina</p>
+    </header>
+  </div>
+
+  <div class="container mt-4">
+    <div class="row">
+      <div class="col-12">
+          <h2 clas="text-center">Thar be monsters in da sea</h2>
+      </div>
+    </div>
+
+  <div class="row row-cols-1 row-cols-md-3">
+    <div class="col">
+      <div class="card">
+      <img src="img/kraken03.jpg" class="card-img-top" alt="...">
+        <div class="card-body">
+        <h5 class="card-title">Leviathan</h5>
+        <p class="card-text">Tentacles writhed beneath the stormy waves, as the abyssal beast stirred from its ancient slumber. The brine-filled air crackled with an eerie energy, and the ship’s timbers groaned under the weight of the encroaching doom.</p>
+        </div>
+      </div>
+    </div>
+  
+    <div class="col">
+      <div class="card">
+          <img src="img/kraken02.jpg" class="card-img-top" alt="...">
+        <div class="card-body">
+        <h5 class="card-title">Gethshemeth</h5>
+        <p class="card-text">The sea churned violently, salt spray lashing against the deck as monstrous appendages emerged from the depths. A sailor screamed as suckers the size of shields wrapped around the mast, splintering wood like brittle bone.</p>
+        </div>
+      </div>
+    </div>
+
+  <div class="col">
+    <div class="card">
+      <img src="img/kraken01.jpg" class="card-img-top" alt="...">
+      <div class="card-body">
+        <h5 class="card-title">Scylla</h5>
+        <p class="card-text">Ink-black waters consumed the horizon, a maelstrom of chaos and fury. The Kraken, guardian of forgotten shipwrecks and drowned souls, pulled the vessel down, down into the eternal dark. And in the silence that followed, only the echoes of lost mariners remained, whispering to the waves.
+        </p>
+      </div>
+    </div>
+  </div>
+  </div>
+  
+  <footer class="site-footer">
+    <p>Site by Celestina</p>
+  </footer>
   <!-- Closing scripts here -->
   <script src="js/bootstrap.bundle.min.js"></script>
 </body>
